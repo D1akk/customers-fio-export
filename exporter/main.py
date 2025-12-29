@@ -6,12 +6,12 @@ from openpyxl import Workbook
 DB = dict(
     host="127.0.0.1",
     port=5432,
-    dbname="yarmiac",
+    dbname="",
     user="postgres",
     password="postgres",
 )
 
-API_URL = "http://127.0.0.1:15426/api/getCusFioById"
+API_URL = ""
 BATCH = 1000
 CONCURRENCY = 20
 
